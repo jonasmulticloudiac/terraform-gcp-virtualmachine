@@ -18,6 +18,6 @@ variable "region" {
 }
 
 variable "sa-creds" {
-  default = "../auth/sa-gcp.json"
+  default = "<seu-arquivo-autenticacao>.json"
 }
 
