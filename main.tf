@@ -1,6 +1,6 @@
 resource "google_os_login_ssh_public_key" "mykey" {
-    user = "terraform-gcp-sa@terragcp-web.iam.gserviceaccount.com"
-    key = file("/root/.ssh/id_rsa.pub")
+    user = "<sua-service-account>@<project-id>.iam.gserviceaccount.com"
+    key = file("/root/.ssh/<sua-key-pub>")
 }
 
 resource "google_compute_instance" "web" {
