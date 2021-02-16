@@ -25,8 +25,6 @@ resource "google_compute_instance" "web" {
   }
 
 
-  
-
   scheduling {
     preemptible       = true
     automatic_restart = false
